@@ -421,11 +421,13 @@ textarea {
     margin: 0;
     max-width: 100%;
     vertical-align: baseline;
+    font-family: Poppins;
 }
 
 button,
 input {
     line-height: normal;
+    font-family: Poppins;
 }
 
 button,
@@ -436,6 +438,7 @@ input[type="submit"] {
     -moz-appearance: button;
     appearance: button;
     cursor: pointer;
+    font-family: Poppins;
 }
 
 button[disabled],
@@ -538,6 +541,37 @@ html {
     overflow: hidden;
     overflow-y: auto;
     scroll-behavior: smooth;
+}
+
+
+/* total width */
+
+body::-webkit-scrollbar {
+    background-color: transparent;
+    width: 8px;
+}
+
+
+/* background of the scrollbar except button or resizer */
+
+body::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+
+/* scrollbar itself */
+
+body::-webkit-scrollbar-thumb {
+    background-color: #7F7F7F;
+    border-radius: 12px;
+    ;
+}
+
+
+/* set button(top and bottom of the scrollbar) */
+
+body::-webkit-scrollbar-button {
+    display: none;
 }
 
 body {
@@ -775,7 +809,7 @@ Common Css
 }
 
 .color-3 {
-    color: #f4769a;
+    color: #76a8f4;
 }
 
 .color-4 {
@@ -10514,7 +10548,7 @@ Mainmenu Area
 
 .mainmenunav ul.mainmenu>li>ul.submenu li:hover a {
     color: var(--color-primary);
-    background: rgba(249, 0, 77, 0.07);
+    background: rgba(0, 212, 249, 0.07);
 }
 
 .mainmenunav ul.mainmenu>li:hover>ul.submenu {
@@ -10543,7 +10577,7 @@ Mainmenu Area
 }
 
 .color-white .mainmenunav ul.mainmenu>li:hover>a {
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(0, 212, 249, 0.07);
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
