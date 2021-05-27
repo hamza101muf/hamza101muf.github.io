@@ -567,8 +567,9 @@ body::-webkit-scrollbar-thumb {
     ;
 }
 
-
-/* set button(top and bottom of the scrollbar) */
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.001);
+}
 
 body::-webkit-scrollbar-button {
     display: none;
@@ -707,7 +708,7 @@ h2,
 .h2,
 h3,
 .h3 {
-    font-weight: 700;
+    font-weight: 600;
 }
 
 h4,
@@ -10483,7 +10484,7 @@ img.react-parallax-bgimage {
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 500px) and (max-width: 991px) {
     .humberger-menu span {
         font-size: 28px;
     }
@@ -13312,9 +13313,9 @@ Slider Default Style
 
 .slide .inner h1.title {
     font-size: 110px;
-    font-weight: 900;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
     line-height: 120px;
 }
 
@@ -13653,8 +13654,8 @@ Slider Default Style
 .slide.slider-style-3 .inner h1.title {
     color: #1f1f25;
     font-size: 75px;
-    font-weight: 900;
-    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
     line-height: 90px;
     text-transform: inherit;
     width: 70%;
@@ -13757,7 +13758,7 @@ Slider Default Style
     font-weight: 600;
     position: relative;
     margin-bottom: 30px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -15426,7 +15427,7 @@ Call To Action Wrapper
     color: #ffffff;
     font-size: 52px;
     font-weight: 600;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     line-height: 1.2;
     padding: 0 10%;
     margin-bottom: 0;
@@ -15464,7 +15465,7 @@ Call To Action Wrapper
     font-weight: 600;
     position: relative;
     margin-bottom: 30px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     padding-bottom: 14px;
 }
 
@@ -16918,7 +16919,7 @@ Footer Styles
     color: #ffffff;
     font-size: 75px;
     font-weight: 900;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     line-height: 90px;
 }
 
