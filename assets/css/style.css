@@ -77,7 +77,7 @@
     --color-secondary-rgb: rgb(0, 255, 128);
     --color-tertiary: #010001;
     --color-dark: #000000;
-    --color-heading: #1f1f25;
+    --color-heading: #50eba2;
     --color-body: #1d1d24;
     --color-gray: rgba(29, 29, 36, .75);
     --color-midgray: #e9ecef;
@@ -10578,7 +10578,7 @@ Mainmenu Area
 }
 
 .color-white .mainmenunav ul.mainmenu>li:hover>a {
-    color: rgba(0, 212, 249, 0.07);
+    color: var(--color-primary);
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
