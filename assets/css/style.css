@@ -14061,7 +14061,7 @@ Personal Portfolio
         width: 100%;
         height: 100%;
         top: 0;
-        background: #ffffff;
+        background: rgba(0, 0, 0, 0.6);
         opacity: 0.5;
     }
 }
@@ -14076,7 +14076,7 @@ Personal Portfolio
         width: 100%;
         height: 100%;
         top: 0;
-        background: #ffffff;
+        background: rgba(0, 0, 0, 0.6);
         opacity: 0.5;
     }
 }
