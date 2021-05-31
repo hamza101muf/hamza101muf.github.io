@@ -1,6 +1,4 @@
 /*********************************************************************************
-
-	Template Name: Imroz - Html5 Agency & Portfolio Template
 	Note: This is style css.
 
 **********************************************************************************/
@@ -11287,7 +11285,7 @@ button.btn-default.btn-dark.btn-border:hover {
     width: 100%;
     z-index: -1;
     background: var(--color-primary);
-    background: linear-gradient(90deg, #1C99FE 20.69%, #7644FF 50.19%, #FD4766 79.69%);
+    background: linear-gradient(90deg, #50EBA2 20.69%, #6DE2D4 50.19%, #337DFF 79.69%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='var(--color-primary)', endColorstr='var(--color-secondary)', GradientType=1);
     top: 0;
     left: 0;
@@ -11631,9 +11629,9 @@ ul.social-share li a {
     width: 40px;
     display: inline-block;
     height: 40px;
-    border: 2px solid rgba(198, 201, 216, 0.75);
+    border: 2px solid rgb(255, 255, 255);
     line-height: 35px;
-    color: rgba(198, 201, 216, 0.75);
+    color: rgb(255, 255, 255);
     border-radius: 100%;
     text-align: center;
     font-size: 14px;
@@ -11692,8 +11690,7 @@ ul.social-share.social-style--2.color-theme li a:hover {
 }
 
 ul.social-share.social-style--2.color-black li a {
-    color: #1d1d24;
-    opacity: 0.8;
+    color: #ffffff;
 }
 
 ul.social-share.social-style--2.color-black li a:hover {
