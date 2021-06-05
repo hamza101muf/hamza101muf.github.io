@@ -1,19 +1,10 @@
 <?php
 $name = trim($_POST['contact-name']);
-$phone = trim($_POST['contact-phone']);
 $email = trim($_POST['contact-email']);
 $message = trim($_POST['contact-message']);
 if ($name == "") {
     $msg['err'] = "\n Name can not be empty!";
     $msg['field'] = "contact-name";
-    $msg['code'] = FALSE;
-} else if ($phone == "") {
-    $msg['err'] = "\n Phone number can not be empty!";
-    $msg['field'] = "contact-phone";
-    $msg['code'] = FALSE;
-} else if (!preg_match("/^[0-9 \\-\\+]{4,17}$/i", trim($phone))) {
-    $msg['err'] = "\n Please put a valid phone number!";
-    $msg['field'] = "contact-phone";
     $msg['code'] = FALSE;
 } else if ($email == "") {
     $msg['err'] = "\n Email can not be empty!";
@@ -32,7 +23,6 @@ if ($name == "") {
     $subject = 'So...';
     $_message = '<html><head></head><body>';
     $_message .= '<p>Name: ' . $name . '</p>';
-    $_message .= '<p>Message: ' . $phone . '</p>';
     $_message .= '<p>Email: ' . $email . '</p>';
     $_message .= '<p>Message: ' . $message . '</p>';
     $_message .= '</body></html>';
