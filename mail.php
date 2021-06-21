@@ -1,15 +1,10 @@
 <?php
 $name = trim($_POST['contact-name']);
-$phone = trim($_POST['contact-phone']);
 $email = trim($_POST['contact-email']);
 $message = trim($_POST['contact-message']);
 if ($name == "") {
     $msg['err'] = "\n Name can not be empty!";
     $msg['field'] = "contact-name";
-    $msg['code'] = FALSE;
-} else if (!preg_match("/^[0-9 \\-\\+]{4,17}$/i", trim($phone))) {
-    $msg['err'] = "\n Please put a valid phone number!";
-    $msg['field'] = "contact-phone";
     $msg['code'] = FALSE;
 } else if ($email == "") {
     $msg['err'] = "\n Email can not be empty!";
@@ -25,7 +20,7 @@ if ($name == "") {
     $msg['code'] = FALSE;
 } else {
     $to = 'hamza101muf@gmail.com';
-    $subject = 'Hey 👋';
+    $subject = 'Hi 👋';
     $_message = '<html><head></head><body>';
     $_message .= '<p>Name: ' . $name . '</p>';
     $_message .= '<p>Email: ' . $email . '</p>';
@@ -37,7 +32,7 @@ if ($name == "") {
     $headers .= 'From:  Papr <contact@example.com>' . "\r\n";
     $headers .= 'cc: contact@example.com' . "\r\n";
     $headers .= 'bcc: contact@example.com' . "\r\n";
-    mail($to, $subject, $_message, $headers, '-f contact@example.com');
+    mail($to, $subject, $_message, $headers, '-f hamza101muf@gmail.com');
 
     $msg['success'] = "\n Email has been sent successfully.";
     $msg['code'] = TRUE;
