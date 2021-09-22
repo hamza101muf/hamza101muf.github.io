@@ -490,7 +490,18 @@
                             </div>
                         </div>
                         <div class="form-wrapper">
-                            <form>
+                            <form action="https://send.pageclip.co/W9lqCMtrW3zDDZUoLfA8guAKUXTcRM23" class="pageclip-form" method="post">
+                                <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
+                                <input type="text" name="name" id="contact-name" placeholder="Name" value="" />
+                                <input type="email" name="email"placeholder="Email" id="contact-email"value="" />
+                                <textarea type="text" name="message" placeholder="Message"></textarea>
+                              
+                                <!-- This button will have a loading spinner. Keep the inner span for best results. -->
+                                <button name="submit" type="submit" id="submit" class="btn-default" class="pageclip-form__submit">
+                                  <span>SEND</span>
+                                </button>
+                              </form>
+                           <!-- <form>
                             <form id="contact-form" method="POST" action="mail.php">
                                 <input name="contact-name" id="contact-name" type="text" placeholder="Name">
                                 <input name="contact-email" id="contact-email" type="email" placeholder="Email">
@@ -500,7 +511,7 @@
                                        </button>
                                 </div>
                             </form>
-                            </form>
+                            </form> -->
                         </div>
                     </div>
                     <div class="col-lg-6 order-1 order-lg-2">
@@ -574,6 +585,9 @@
 
     <!-- main JS -->
     <script src="assets/js/main.js"></script>
+
+    <!--paperclip.co-->
+    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 
 </body>
 
