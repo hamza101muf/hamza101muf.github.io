@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="assets/css/vendor/lightbox.css">
     <link rel="stylesheet" href="assets/css/vendor/fontawesome.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://assets.calendly.com/assets/external/widget.css">
 </head>
 
 <body>
@@ -151,7 +152,7 @@
                         </div>
                         <div class="inner">
                             <h4 class="title">Schedule a Meet</h4>
-                            <p><a href="https://calendly.com/hamzamufti">/hamzamufti</a></p>
+                            <p><a class="calendly" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/hamzamufti'});return false;">/hamzamufti</a></p>
                         </div>
                     </div>
                 </div>
@@ -180,7 +181,8 @@
                                 </div>
                                     <div class="im_address mt--5">
                                     <span>Meet:</span>
-                                    <a class="link im-hover" href="https://calendly.com/hamzamufti">/hamzamufti</a>
+                                    <a class="link im-hover" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/hamzamufti'});return false;">/hamzamufti</a>
+                                    <!--<a class="link im-hover" href="https://calendly.com/hamzamufti">/hamzamufti</a>-->
                                 </div>
                             </div>
                         </div>
@@ -297,6 +299,7 @@
     <script src="assets/js/vendor/lightbox.js"></script>
     <script src="assets/js/vendor/particles.js"></script>
     <script src="assets/js/vendor/contactform.js"></script>
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
 
     <!-- main JS -->
     <script src="assets/js/main.js"></script>

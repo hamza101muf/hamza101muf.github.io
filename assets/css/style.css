@@ -169,6 +169,10 @@
     box-sizing: border-box;
 }
 
+.calendly {
+    overflow: hidden !important;
+}
+
 article,
 aside,
 details,
