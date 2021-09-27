@@ -546,22 +546,22 @@ html {
 }
 
 
-/* total width */
+/* total width 
 
 body::-webkit-scrollbar {
-    background-color: transparent;
+    background-color: transparent !important;
     width: 8px;
 }
 
 
-/* background of the scrollbar except button or resizer */
+/* background of the scrollbar except button or resizer 
 
 body::-webkit-scrollbar-track {
     background-color: transparent;
 }
 
 
-/* scrollbar itself */
+/* scrollbar itself 
 
 body::-webkit-scrollbar-thumb {
     background-color: #7F7F7F;
@@ -575,7 +575,7 @@ body::-webkit-scrollbar-thumb {
 
 body::-webkit-scrollbar-button {
     display: none;
-}
+} */
 
 body {
     overflow: hidden;
