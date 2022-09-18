@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="assets/css/vendor/fontawesome.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://assets.calendly.com/assets/external/widget.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
 <body>
@@ -191,6 +192,8 @@
                                 <input type="text" name="name" id="contact-name" placeholder="Name" value="" />
                                 <input type="email" name="email"placeholder="Email" id="contact-email"value="" />
                                 <textarea type="text" name="message" placeholder="Message"></textarea>
+                                <div class="g-recaptcha" data-sitekey="6LcCEwwiAAAAADueUW81mfSf9iJiff9H0uB5V7Zb"></div>
+                                <br>
                                 <button name="submit" type="submit" id="submit" class="btn-default">
                                     <span>SEND</span>
                                 </button>
@@ -199,7 +202,7 @@
                     </div>
                     <div class="col-lg-6 order-1 order-lg-2">
                         <div class="thumbnail mb_md--30 mb_sm--30">
-                            <img src="assets/images/about/about-11.jpg" alt="Hamza">
+                            <img src="assets/images/about/about-11.png" alt="Hamza">
                         </div>
                     </div>
                 </div>
@@ -299,6 +302,9 @@
 
     <!-- main JS -->
     <script src="assets/js/main.js"></script>
+
+    <!--google recaptcha-->
+    <script src="https://www.google.com/recaptcha/api.js?render=6LcCEwwiAAAAADueUW81mfSf9iJiff9H0uB5V7Zb"></script>
 </body>
 
 </html>
