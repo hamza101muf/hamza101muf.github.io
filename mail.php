@@ -19,7 +19,7 @@ if ($name == "") {
     $msg['field'] = "contact-message";
     $msg['code'] = FALSE;
 } else {
-    $to = 'hamza101muf@gmail.com';
+    $to = 'hamza@hamzamufti.com';
     $subject = 'Hi 👋';
     $_message = '<html><head></head><body>';
     $_message .= '<p>Name: ' . $name . '</p>';
@@ -32,7 +32,7 @@ if ($name == "") {
     $headers .= 'From:  Papr <contact@example.com>' . "\r\n";
     $headers .= 'cc: contact@example.com' . "\r\n";
     $headers .= 'bcc: contact@example.com' . "\r\n";
-    mail($to, $subject, $_message, $headers, '-f hamza101muf@gmail.com');
+    mail($to, $subject, $_message, $headers, '-f hamza@hamzamufti.com');
 
     $msg['success'] = "\n Email has been sent successfully.";
     $msg['code'] = TRUE;
